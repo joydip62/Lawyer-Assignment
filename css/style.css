@@ -350,68 +350,17 @@ footer i{
     color: #b1b7dd;
     margin-left: 8%;
     cursor: pointer;
+    transition: .3s all ease-in-out;
 }
 
 .footer_icon{
     text-align: end;
 }
+
+.footer_icon i:hover{
+    color: #f2622c;
+}
+
 /*========================= footer end =================================*/
 
 
-
-
-/*---------------------------- media queries -----------------------------*/
-@media (max-device-width : 764px){
-    /*======================== menu ===================================*/
-    .main-menu ul li{
-        margin: auto;
-        width: max-content;
-    }
-    /*========================= banner start =================================*/
-    .header_banner h1{
-        font-size: 40px;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin: auto;
-        text-align: center;
-    }
-    /*========================= who we are start =================================*/
-    .who_we_are{
-        text-align: center;
-    }
-
-    /*========================= who we do start =================================*/
-
-    .what_we_do .image{
-        margin-bottom: 12px;
-    }
-    .what_we_do{
-        background-image: none;
-    }
-
-    /*========================= our attorneys start =================================*/
-    .our_att{
-       text-align: center;
-    }
-    .our_att h6{
-        margin-bottom: 20px;
-    }
-    /*========================= the languages start =================================*/
-    .language{
-        text-align: center;
-    }
-    .lang h6{
-        margin-bottom: 10%;
-    }
-
-    /*========================= footer start =================================*/
-    footer{
-       text-align: center;
-    }
-    .footer_icon{
-        text-align: center;
-        margin-top: 10px;
-    }
-
-}

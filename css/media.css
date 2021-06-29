@@ -1,0 +1,161 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 925px) and (max-width: 1024px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    /*======================== menu ===================================*/
+    .main-menu ul li{
+        margin: auto;
+        width: max-content;
+    }
+    /*========================= banner start =================================*/
+    .header_banner h1{
+        font-size: 48px;
+    }
+
+    /*========================= the languages start =================================*/
+
+    .lang h3{
+        font-size: 20px;
+    }
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*======================== menu ===================================*/
+    .main-menu ul li{
+        margin: auto;
+        width: max-content;
+    }
+    /*========================= banner start =================================*/
+    .header_banner h1{
+        font-size: 48px;
+    }
+    /*========================= who we are start =================================*/
+    .who_we_are{
+        text-align: center;
+    }
+
+    /*========================= who we do start =================================*/
+
+    .what_we_do .image{
+        margin-bottom: 12px;
+    }
+    .what_we_do{
+        background-image: none;
+    }
+
+    /*========================= our attorneys start =================================*/
+    .our_att{
+        text-align: center;
+    }
+    .our_att h6{
+        margin-bottom: 20px;
+    }
+    /*========================= the languages start =================================*/
+    .language{
+        text-align: center;
+    }
+    .lang h6{
+        margin-bottom: 10%;
+    }
+
+    /*========================= footer start =================================*/
+    footer{
+        text-align: center;
+    }
+    .footer_icon{
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /*======================== menu ===================================*/
+    .main-menu ul li{
+        margin: auto;
+        width: max-content;
+    }
+    /*========================= banner start =================================*/
+    .header_banner h1{
+        font-size: 30px;
+    }
+    /*========================= who we are start =================================*/
+    .who_we_are{
+        text-align: center;
+    }
+
+    /*========================= who we do start =================================*/
+
+    .what_we_do .image{
+        margin-bottom: 12px;
+    }
+    .what_we_do{
+        background-image: none;
+    }
+
+    /*========================= our attorneys start =================================*/
+    .our_att{
+        text-align: center;
+    }
+    .our_att h6{
+        margin-bottom: 20px;
+    }
+    /*========================= the languages start =================================*/
+    .language{
+        text-align: center;
+    }
+    .lang h6{
+        margin-bottom: 10%;
+    }
+
+    /*========================= footer start =================================*/
+    footer{
+        text-align: center;
+    }
+    .footer_icon{
+        text-align: center;
+        margin-top: 10px;
+    }
+}
